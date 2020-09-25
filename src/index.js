@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import '../node_modules/normalize.css/normalize.css';
 import App from './App';
+import Buttons from './components/Buttons';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Buttons />
   </React.StrictMode>,
   document.getElementById('root')
 );
