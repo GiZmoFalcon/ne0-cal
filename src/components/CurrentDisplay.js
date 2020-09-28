@@ -1,11 +1,19 @@
 import React from 'react';
 import '../styles/components/CurrentDisplay.css'
+import GlobalContext from '../contexts/GlobalContext';
 
 const CurrentDisplay = () => {
     return (
-        <div className='current-display'>
-            <p>42,64,704</p>
-        </div>
+        <GlobalContext.Consumer>
+            {(state) => {
+                return (
+                    <div className='current-display'>
+                        <p>{state.GlobalState.expression || '0'}</p>
+                    </div>
+                )
+            }}
+
+        </GlobalContext.Consumer>
     );
 }
 

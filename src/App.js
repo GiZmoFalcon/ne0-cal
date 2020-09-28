@@ -6,7 +6,7 @@ import GlobalContext from './contexts/GlobalContext';
 
 function App(props) {
 
-  const [GlobalState, updateGlobalState] = React.useState({ expression:'', answer:0});
+  const [GlobalState, updateGlobalState] = React.useState({ expression:'', answer:0, history:''});
 
   return (
     <GlobalContext.Provider value={{GlobalState, updateGlobalState}}>

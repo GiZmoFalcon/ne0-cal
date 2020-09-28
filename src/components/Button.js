@@ -3,7 +3,7 @@ import '../styles/components/Button.css'
 import GlobalContext from '../contexts/GlobalContext'
 
 const doSomething = (name, state) => {
-    state.updateGlobalState({...state.GlobalState, expression: name});
+    state.updateGlobalState({...state.GlobalState, expression: state.GlobalState.expression + name});
     console.log('Button Clicked', name, state);
 }
 
