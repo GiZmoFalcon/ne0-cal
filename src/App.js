@@ -6,10 +6,10 @@ import GlobalContext from './contexts/GlobalContext';
 
 function App(props) {
 
-  const GlobalState = { prop: 0 };
+  const [GlobalState, updateGlobalState] = React.useState({ expression:'', answer:0});
 
   return (
-    <GlobalContext.Provider value={GlobalState}>
+    <GlobalContext.Provider value={{GlobalState, updateGlobalState}}>
         <div className="App">
           <header className="App-header">
             <Calculator/>
