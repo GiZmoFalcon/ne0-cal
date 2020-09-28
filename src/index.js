@@ -4,24 +4,11 @@ import '../node_modules/normalize.css/normalize.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-const GlobalState = {
-  expresssion: '',
-  answer: 0
-}
-
-const updateState = (type, changes) => {
-  switch(type){
-    case 'expr':
-
-  }
-}
-
-const GlobalContext = React.createContext();
 
 ReactDOM.render(
-  <GlobalContext.Provider value={GlobalState}>
+  <React.StrictMode>
     <App />
-  </GlobalContext.Provider>,
+  </React.StrictMode>,
   document.getElementById('root')
 );
 
