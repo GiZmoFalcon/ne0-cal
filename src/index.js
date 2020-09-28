@@ -2,13 +2,26 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import '../node_modules/normalize.css/normalize.css';
 import App from './App';
-import Buttons from './components/Buttons';
 import * as serviceWorker from './serviceWorker';
 
+const GlobalState = {
+  expresssion: '',
+  answer: 0
+}
+
+const updateState = (type, changes) => {
+  switch(type){
+    case 'expr':
+
+  }
+}
+
+const GlobalContext = React.createContext();
+
 ReactDOM.render(
-  <React.StrictMode>
-    <Buttons />
-  </React.StrictMode>,
+  <GlobalContext.Provider value={GlobalState}>
+    <App />
+  </GlobalContext.Provider>,
   document.getElementById('root')
 );
 

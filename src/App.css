@@ -1,7 +1,11 @@
 .App {
-
+    display: grid;
+    place-items: center;
+    background: #e5e5e5;
+    padding: 2.4rem;
 }
 
 .App-header {
-
+    display: grid;
+    place-items: center;
 }
