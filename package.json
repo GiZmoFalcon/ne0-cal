@@ -2,7 +2,7 @@
   "name": "neo-calc",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gizmofalcon.github.io/ne0-calc",
+  "homepage": "https://gizmofalcon.github.io/ne0-cal/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
