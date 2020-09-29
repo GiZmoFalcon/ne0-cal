@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/neo-calc/static/css/main.30c95cda.chunk.css",
+    "main.js": "/neo-calc/static/js/main.ca0b0e62.chunk.js",
+    "main.js.map": "/neo-calc/static/js/main.ca0b0e62.chunk.js.map",
+    "runtime-main.js": "/neo-calc/static/js/runtime-main.16d1d6a0.js",
+    "runtime-main.js.map": "/neo-calc/static/js/runtime-main.16d1d6a0.js.map",
+    "static/css/2.764ccc25.chunk.css": "/neo-calc/static/css/2.764ccc25.chunk.css",
+    "static/js/2.def40ae9.chunk.js": "/neo-calc/static/js/2.def40ae9.chunk.js",
+    "static/js/2.def40ae9.chunk.js.map": "/neo-calc/static/js/2.def40ae9.chunk.js.map",
+    "index.html": "/neo-calc/index.html",
+    "precache-manifest.ed91890b4cf197dd1395f48512aa8a6b.js": "/neo-calc/precache-manifest.ed91890b4cf197dd1395f48512aa8a6b.js",
+    "service-worker.js": "/neo-calc/service-worker.js",
+    "static/css/2.764ccc25.chunk.css.map": "/neo-calc/static/css/2.764ccc25.chunk.css.map",
+    "static/css/main.30c95cda.chunk.css.map": "/neo-calc/static/css/main.30c95cda.chunk.css.map",
+    "static/js/2.def40ae9.chunk.js.LICENSE.txt": "/neo-calc/static/js/2.def40ae9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.16d1d6a0.js",
+    "static/css/2.764ccc25.chunk.css",
+    "static/js/2.def40ae9.chunk.js",
+    "static/css/main.30c95cda.chunk.css",
+    "static/js/main.ca0b0e62.chunk.js"
+  ]
+}
