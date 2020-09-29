@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/ne0-calc/static/css/main.30c95cda.chunk.css",
-    "main.js": "/ne0-calc/static/js/main.8805078c.chunk.js",
-    "main.js.map": "/ne0-calc/static/js/main.8805078c.chunk.js.map",
-    "runtime-main.js": "/ne0-calc/static/js/runtime-main.1194cc0b.js",
-    "runtime-main.js.map": "/ne0-calc/static/js/runtime-main.1194cc0b.js.map",
-    "static/css/2.764ccc25.chunk.css": "/ne0-calc/static/css/2.764ccc25.chunk.css",
-    "static/js/2.def40ae9.chunk.js": "/ne0-calc/static/js/2.def40ae9.chunk.js",
-    "static/js/2.def40ae9.chunk.js.map": "/ne0-calc/static/js/2.def40ae9.chunk.js.map",
-    "index.html": "/ne0-calc/index.html",
-    "precache-manifest.23667ee8dfc5b0b06fd16f18f49df758.js": "/ne0-calc/precache-manifest.23667ee8dfc5b0b06fd16f18f49df758.js",
-    "service-worker.js": "/ne0-calc/service-worker.js",
-    "static/css/2.764ccc25.chunk.css.map": "/ne0-calc/static/css/2.764ccc25.chunk.css.map",
-    "static/css/main.30c95cda.chunk.css.map": "/ne0-calc/static/css/main.30c95cda.chunk.css.map",
-    "static/js/2.def40ae9.chunk.js.LICENSE.txt": "/ne0-calc/static/js/2.def40ae9.chunk.js.LICENSE.txt"
+    "main.css": "/ne0-cal/static/css/main.30c95cda.chunk.css",
+    "main.js": "/ne0-cal/static/js/main.6cd03b66.chunk.js",
+    "main.js.map": "/ne0-cal/static/js/main.6cd03b66.chunk.js.map",
+    "runtime-main.js": "/ne0-cal/static/js/runtime-main.4a3f90fa.js",
+    "runtime-main.js.map": "/ne0-cal/static/js/runtime-main.4a3f90fa.js.map",
+    "static/css/2.764ccc25.chunk.css": "/ne0-cal/static/css/2.764ccc25.chunk.css",
+    "static/js/2.def40ae9.chunk.js": "/ne0-cal/static/js/2.def40ae9.chunk.js",
+    "static/js/2.def40ae9.chunk.js.map": "/ne0-cal/static/js/2.def40ae9.chunk.js.map",
+    "index.html": "/ne0-cal/index.html",
+    "precache-manifest.121155690fa7576aaa173a2976e91ec5.js": "/ne0-cal/precache-manifest.121155690fa7576aaa173a2976e91ec5.js",
+    "service-worker.js": "/ne0-cal/service-worker.js",
+    "static/css/2.764ccc25.chunk.css.map": "/ne0-cal/static/css/2.764ccc25.chunk.css.map",
+    "static/css/main.30c95cda.chunk.css.map": "/ne0-cal/static/css/main.30c95cda.chunk.css.map",
+    "static/js/2.def40ae9.chunk.js.LICENSE.txt": "/ne0-cal/static/js/2.def40ae9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.1194cc0b.js",
+    "static/js/runtime-main.4a3f90fa.js",
     "static/css/2.764ccc25.chunk.css",
     "static/js/2.def40ae9.chunk.js",
     "static/css/main.30c95cda.chunk.css",
-    "static/js/main.8805078c.chunk.js"
+    "static/js/main.6cd03b66.chunk.js"
   ]
 }
