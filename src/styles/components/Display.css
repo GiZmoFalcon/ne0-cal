@@ -16,3 +16,11 @@
     grid-template-rows: 4fr 1fr;
     gap: 0.6rem;
 }
+
+@media (max-width: 500px) {
+    .display {
+        width: 80%;
+        height: 80%;
+        align-self: flex-end;
+    }
+}

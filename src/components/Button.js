@@ -25,8 +25,10 @@ const doSomething = (type, name, state) => {
             }
             break;
         case 'math':
-            if(state.GlobalState.expression === ''){
+            const symbols = ['/','x','+','-','(',')']
+            if(state.GlobalState.expression === '' || (!!(symbols.indexOf(state.GlobalState.expression[state.GlobalState.expression.length-1])+1) && !!(symbols.indexOf(name)+1))){
                 console.log("Can't evaluate the expression");
+                break;
             }
             else if (name === 'X'){
                 state.updateGlobalState({
@@ -34,6 +36,16 @@ const doSomething = (type, name, state) => {
                     expression: state.GlobalState.expression+'x'
                 })
                 console.log('multiply');
+            }
+            else if (name === '%'){
+                if(!(symbols.indexOf(state.GlobalState.expression[state.GlobalState.expression.length-1])+1))
+                state.updateGlobalState({
+                    ...state.GlobalState,
+                    expression: state.GlobalState.expression+'/100'
+                })
+                else {
+                    console.log("can't add %");
+                }
             }
             else {
                 state.updateGlobalState({
@@ -55,6 +67,7 @@ const doSomething = (type, name, state) => {
             state.updateGlobalState({
                 ...state.GlobalState,
                 history: state.GlobalState.expression,
+                // eslint-disable-next-line
                 expression: JSON.stringify(eval(internalExpression))
             })
             console.log('evaluating');

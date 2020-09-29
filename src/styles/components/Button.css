@@ -5,6 +5,34 @@
     height: 80px;
     border-radius: 24px;
     cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition: 300ms ease;
+}
+
+@media (max-width: 500px) {
+    .btn {
+        width: 64px;
+        height: 64px;
+        border-radius: 12px;
+    }
+}
+
+@media (max-width: 360px) {
+    .btn {
+        width: 40px;
+        height: 40px;
+        border-radius: 8px;
+    }
+}
+
+.btn:hover, .btn:active, .btn:focus {
+    box-shadow: -16px -16px 32px #FAFBFF, 16px 16px 32px #A6ABBD, inset 0px 0px 12px 32px rgba(177, 177, 177, 0.1);
+    transition: 300ms ease;
 }
 
 .func {
@@ -18,7 +46,6 @@
     background: #ECEDF1;
     border: 1.56px solid rgba(255, 255, 255, 0.1);
     box-sizing: border-box;
-
     /* Neo-Shadow 1 */
     box-shadow: -16px -16px 32px #FAFBFF, 16px 16px 32px #A6ABBD;
 }
@@ -34,20 +61,19 @@
     background: #ECEDF1;
     border: 1.56px solid rgba(255, 255, 255, 0.247);
     box-sizing: border-box;
-
     /* Neo-Shadow 1 */
     box-shadow: -16px -16px 32px #FAFBFF, 16px 16px 32px #A6ABBD;
 }
 
-.normal,.math > p{
+.normal, .math>p {
     text-transform: uppercase;
-	background: linear-gradient(317.7deg, rgba(0, 0, 0, 0.4) 0%, rgba(255, 255, 255, 0.4) 105.18%), #C4C9DC;
+    background: linear-gradient(317.7deg, rgba(0, 0, 0, 0.4) 0%, rgba(255, 255, 255, 0.4) 105.18%), #C4C9DC;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.func > p{
+.func>p {
     text-transform: uppercase;
     background: linear-gradient(317.7deg, rgba(0, 0, 0, 0.4) 0%, rgba(255, 255, 255, 0.4) 105.18%);
     background: #FFB7B7;
@@ -55,7 +81,7 @@
     -webkit-text-fill-color: transparent;
 }
 
-.equals > p{
+.equals>p {
     text-transform: uppercase;
     background: linear-gradient(317.7deg, rgba(0, 0, 0, 0.4) 0%, rgba(255, 255, 255, 0.4) 105.18%);
     background: #FFD98F;
