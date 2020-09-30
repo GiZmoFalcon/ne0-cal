@@ -1,6 +1,6 @@
 ![ne0 cal logo](https://github.com/GiZmoFalcon/ne0-cal/blob/master/public/logo192.png?raw=true, "Neomorphic Calculator Logo")
 # Neomorphic Calculator
-Neomorphic Calculator (ne0-cal) is a basic calculator built using React.
+Neomorphic Calculator (ne0-cal) is a basic calculator built using React. Click [here](https://gizmofalcon.github.io/ne0-cal/) to try it out.
 
 
 
