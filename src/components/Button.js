@@ -25,7 +25,7 @@ const doSomething = (type, name, state) => {
             }
             break;
         case 'math':
-            const symbols = ['/','x','+','-','(',')']
+            const symbols = ['/','x','X','+','-','(',')']
             if(state.GlobalState.expression === '' || (!!(symbols.indexOf(state.GlobalState.expression[state.GlobalState.expression.length-1])+1) && !!(symbols.indexOf(name)+1))){
                 console.log("Can't evaluate the expression");
                 break;
